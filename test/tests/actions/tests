@@ -11,6 +11,7 @@
       input = 'EqualValueEmbeddedConstraint.i'
       exodiff = 'EqualValueEmbeddedConstraint_out.e'
       detail = 'without using an action'
+      abs_zero = 1e-9
       custom_cmp = 'EqualValueEmbeddedConstraint.cmp'
       mesh_mode = replicated
     []
@@ -22,6 +23,7 @@
       detail = 'using the EqualValueEmbeddedConstraint action to '
                'automatically set up multiple constraints with the same '
                'results as without using the action.'
+      abs_zero = 1e-9
       custom_cmp = 'EqualValueEmbeddedConstraint.cmp'
       mesh_mode = replicated
     []
@@ -33,6 +35,7 @@
       detail = 'using multiple instances of the EqualValueEmbeddedConstraint '
                'action to set up multiple constraints with the same results '
                'as without using the action.'
+      abs_zero = 1e-9
       custom_cmp = 'EqualValueEmbeddedConstraint.cmp'
       mesh_mode = replicated
     []
