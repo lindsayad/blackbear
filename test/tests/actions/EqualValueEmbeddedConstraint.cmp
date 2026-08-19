@@ -21,9 +21,9 @@ NODAL VARIABLES (all)
 	# resid_y/z max ~5.58e4), comfortably covering build-to-build noise at
 	# the physically negligible nodes without affecting the reaction forces
 	# that actually validate this constraint.
-	resid_x  floor 7.85e-3
-	resid_y  floor 5.58e-4
-	resid_z  floor 5.58e-4
+	resid_x  floor 7.85e-3 # min:               0 @ t1,n1	max:       785037.64 @ t11,n4
+	resid_y  floor 5.58e-4 # min:               0 @ t1,n1	max:       55764.365 @ t11,n4
+	resid_z  floor 5.58e-4 # min:               0 @ t1,n1	max:       55764.349 @ t11,n1
 
 ELEMENT VARIABLES (all)
 	D
